@@ -1,0 +1,220 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-left:5%;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+
+
+body {
+    font-size: 18px;
+    font-weight: normal;
+    color: #000; 
+    background-color: rgb(201, 185, 185);
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+.info-text p {
+    padding: 10px 0px 0px 0px;
+    font-size: 24px;
+    /* font-weight: bold; */
+}
+
+.ikea {
+    font-size: 20px;
+    color: rgb(231, 231, 14);
+    background: rgb(0, 0, 255);
+    text-shadow: 2px 1px 0px #000;
+    }
+
+table {
+    text-align: center;
+
+}
+
+.hobby {
+    background: rgba(97, 204, 97, 0.377);
+    font-size: 20px;
+}
+
+.hobby h2 {
+   padding-bottom: 5px;
+}
+
+
+.social {
+    background: rgba(111, 111, 223, 0.192);
+    font-size: 20px;
+}
+
+.work {
+    background: rgba(231, 99, 99, 0.199);
+    font-size: 20px;
+}
+
+
+.contact {
+    background: rgba(224, 224, 211, 0.685);
+    font-size: 20px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+.card {
+   
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin: 30px 0px;
+    }
+
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
+}
+
+
+div textarea {
+    font-size: 18px;
+}
+
+div input {
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+div span {
+    padding-left: 3px;
+}
+
+.btn {
+    background: #fff;
+    padding: 15px 20px;
+    color: #000
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #000;
+    color: #fff;
+    }
+
+a {
+    color: #000;
+    text-decoration: none;
+    /* transition: all 0.2s; */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* font-size: 2rem; */
+}
+
+a:visited {
+    color:rgb(77, 69, 69);
+}
+
+a:active {
+    color: blue;
+}
+
+.hobby_ol {
+    padding: 0 22px;
+}
+
+.hobby_ol li {
+    margin-bottom: 5px;
+}
+
+.work_table {
+        width: 350px;
+        border-collapse:collapse
+}
+
+.work_table th, td {
+    padding: 10px 5px;
+    border: 1px solid black;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50%-20px); */
+
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 650px){
+    .form-row{
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group label {
+    display: block;
+    color: #000
+}
+
+.form-group input, textarea {
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(41, 40, 40);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    
+}
+
+.form-group textarea {
+    margin-bottom: 20px;
+}
